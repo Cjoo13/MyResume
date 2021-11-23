@@ -82,7 +82,12 @@ aside li {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+aside li:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 aside a {
