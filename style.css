@@ -36,11 +36,20 @@ header {
   padding-top: 20px;
 }
 
+.header_img {
+  margin-left: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 img {
   height: 250px;
   -webkit-clip-path: ellipse(50% 50%);
           clip-path: ellipse(50% 50%);
-  margin-left: 40px;
 }
 
 main {

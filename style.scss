@@ -20,12 +20,15 @@ header {
     align-items: center;
     padding-top: 20px;
 }
+.header_img {
+    margin-left: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 12px rgba(0,0,0,.5);
+    display: flex;
+}
 img {
-
     height: 250px;
     clip-path:ellipse(50% 50%);
-    margin-left: 40px;
-
 }
 main {
     display: flex;
