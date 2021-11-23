@@ -115,6 +115,15 @@ article h3 {
   border-bottom: 3px solid red;
 }
 
+article ul {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+article ul li {
+  padding-bottom: 10px;
+}
+
 .form_exp_conteneur {
   display: -webkit-box;
   display: -ms-flexbox;
