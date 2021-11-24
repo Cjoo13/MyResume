@@ -179,12 +179,22 @@ article {
         &:hover {
             transform: scale(1.05);
         }
+        @media(min-width: 320px) and (max-width: 984px) {
+            width: 50px;
+            height: 50px;
+        }
     }
     .fas, .far {
         font-size: 40px;
+        @media(min-width: 320px) and (max-width: 984px) {
+            font-size: 20px;
+        }
     }
     p {
         font-size: 18px;
+        @media(min-width: 320px) and (max-width: 984px) {
+            font-size: 15px;
+        }
     }
 }
 
