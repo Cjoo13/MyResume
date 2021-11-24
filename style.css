@@ -319,6 +319,7 @@ article ul li {
 
 .icon_int .fas, .icon_int .far {
   font-size: 40px;
+  color: black;
 }
 
 @media (min-width: 320px) and (max-width: 984px) {
