@@ -166,6 +166,11 @@ article {
         flex-direction: column;
         align-items: center;
     }
+    &__txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     &__badge {
         border: 3px solid red;
         box-shadow: 3px 3px 12px rgba(0,0,0,.5);
@@ -196,6 +201,12 @@ article {
         @media(min-width: 320px) and (max-width: 984px) {
             font-size: 15px;
         }
+    }
+}
+.nom_int {
+    margin-bottom: 0;
+    &__sub {
+        margin-top: 5px;
     }
 }
 
