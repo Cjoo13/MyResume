@@ -111,12 +111,32 @@ main {
 
 .header_txt {
   margin-right: 100px;
+  width: 500px;
 }
 
 @media (min-width: 320px) and (max-width: 984px) {
   .header_txt {
     margin-right: 0;
   }
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.titre__mail {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.titre__stxt {
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 aside {
